@@ -1,0 +1,84 @@
+﻿@model GetPostModel.Models.Pessoa
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@*<h3> Recuperando através do model</h3>
+
+    <p>@Model.PessoaId</p>
+    <p>@Model.Nome</p>
+    <p>@Model.Twitter</p>
+
+
+    <h3> Recuperando através do ViewBag</h3>
+    <p>Pessoa Id:  @ViewData["PessoaId"]</p>
+    <p>Nome: @ViewData["Nome"]</p>
+    <p>Twitter: @ViewData["Twitter"]</p>*@
+
+@*<form action="Lista" method="post">
+        <fieldset>
+            <legend> Pessoa </legend>
+            <div>
+                <label for="PessoaId"> Codigo </label>
+
+            </div>
+            <div>
+                <input type="number" value="@Model.PessoaId" id="PessoaId" name="PessoaId" />
+            </div>
+            <div>
+                <label for="Nome"> Nome </label>
+
+            </div>
+            <div>
+                <input type="text" value="@Model.Nome" id="Nome" name="Nome" />
+            </div>
+            <div>
+                <label for="Twitter"> Twitter </label>
+
+            </div>
+            <div>
+                <input type="text" value="@Model.Twitter" id="Twitter" name="Twitter" />
+            </div>
+            <br /> <br />
+            <div>
+                <p><input type="submit" value="enviar" /></p>
+            </div>
+
+        </fieldset>
+    </form> *@
+
+
+<!-- BeginForm("View Destino", "Controller", POST OU GET)-->
+@using (Html.BeginForm("Lista", "Home", FormMethod.Post))
+{
+<fieldset>
+    <legend> Pessoa </legend>
+    <div>
+        @Html.LabelFor(x => x.PessoaId)
+    </div>
+    <div>
+        @Html.EditorFor(x => x.PessoaId)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.Nome)
+    </div>
+    <div>
+        @Html.EditorFor(x => x.Nome)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.Twitter)
+    </div>
+    <div>
+        @Html.EditorFor(x => x.Twitter)
+    </div>
+
+    <br /> <br />
+    <div>
+        <p><input type="submit" value="enviar" /></p>
+    </div>
+
+</fieldset>
+}
+

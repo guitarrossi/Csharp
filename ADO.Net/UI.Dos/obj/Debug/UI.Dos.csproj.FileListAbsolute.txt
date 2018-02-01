@@ -1,0 +1,7 @@
+C:\Users\Caue Andrade\source\repos\ADO.Net\UI.Dos\bin\Debug\UI.Dos.exe.config
+C:\Users\Caue Andrade\source\repos\ADO.Net\UI.Dos\bin\Debug\UI.Dos.exe
+C:\Users\Caue Andrade\source\repos\ADO.Net\UI.Dos\bin\Debug\UI.Dos.pdb
+C:\Users\Caue Andrade\source\repos\ADO.Net\UI.Dos\obj\Debug\UI.Dos.csprojResolveAssemblyReference.cache
+C:\Users\Caue Andrade\source\repos\ADO.Net\UI.Dos\obj\Debug\UI.Dos.csproj.CoreCompileInputs.cache
+C:\Users\Caue Andrade\source\repos\ADO.Net\UI.Dos\obj\Debug\UI.Dos.exe
+C:\Users\Caue Andrade\source\repos\ADO.Net\UI.Dos\obj\Debug\UI.Dos.pdb

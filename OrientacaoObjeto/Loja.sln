@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrientacaoObjeto", "OrientacaoObjeto\OrientacaoObjeto.csproj", "{2116BC4D-BCAD-4432-8B82-8A71056B233B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loja", "Loja\Loja.csproj", "{377454E8-AF5E-441C-AFDC-0FE460217332}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaManager", "LojaManager\LojaManager.csproj", "{4B986820-6F97-42FF-B672-3EC699241DF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2116BC4D-BCAD-4432-8B82-8A71056B233B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2116BC4D-BCAD-4432-8B82-8A71056B233B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2116BC4D-BCAD-4432-8B82-8A71056B233B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2116BC4D-BCAD-4432-8B82-8A71056B233B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{377454E8-AF5E-441C-AFDC-0FE460217332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377454E8-AF5E-441C-AFDC-0FE460217332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377454E8-AF5E-441C-AFDC-0FE460217332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377454E8-AF5E-441C-AFDC-0FE460217332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B986820-6F97-42FF-B672-3EC699241DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B986820-6F97-42FF-B672-3EC699241DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B986820-6F97-42FF-B672-3EC699241DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B986820-6F97-42FF-B672-3EC699241DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8211C19-A628-440B-8A53-2B1C142F0194}
+	EndGlobalSection
+EndGlobal

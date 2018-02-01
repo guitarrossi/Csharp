@@ -1,0 +1,8 @@
+C:\Users\Caue Andrade\source\repos\OrientacaoObjeto\OrientacaoObjeto\bin\Debug\OrientacaoObjeto.exe.config
+C:\Users\Caue Andrade\source\repos\OrientacaoObjeto\OrientacaoObjeto\bin\Debug\OrientacaoObjeto.exe
+C:\Users\Caue Andrade\source\repos\OrientacaoObjeto\OrientacaoObjeto\bin\Debug\OrientacaoObjeto.pdb
+C:\Users\Caue Andrade\source\repos\OrientacaoObjeto\OrientacaoObjeto\obj\Debug\OrientacaoObjeto.csprojResolveAssemblyReference.cache
+C:\Users\Caue Andrade\source\repos\OrientacaoObjeto\OrientacaoObjeto\obj\Debug\OrientacaoObjeto.csproj.CoreCompileInputs.cache
+C:\Users\Caue Andrade\source\repos\OrientacaoObjeto\OrientacaoObjeto\obj\Debug\OrientacaoObjeto.exe
+C:\Users\Caue Andrade\source\repos\OrientacaoObjeto\OrientacaoObjeto\obj\Debug\OrientacaoObjeto.pdb
+C:\Users\Caue Andrade\source\repos\OrientacaoObjeto\OrientacaoObjeto\obj\Debug\OrientacaoObjeto.exe.config

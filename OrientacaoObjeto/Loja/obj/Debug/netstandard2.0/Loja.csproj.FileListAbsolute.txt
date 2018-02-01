@@ -1,0 +1,4 @@
+C:\Users\Caue Andrade\source\repos\OrientacaoObjeto\Loja\obj\Debug\netstandard2.0\Loja.csprojResolveAssemblyReference.cache
+C:\Users\Caue Andrade\source\repos\OrientacaoObjeto\Loja\obj\Debug\netstandard2.0\Loja.csproj.CoreCompileInputs.cache
+C:\Users\Caue Andrade\source\repos\OrientacaoObjeto\Loja\obj\Debug\netstandard2.0\Loja.AssemblyInfoInputs.cache
+C:\Users\Caue Andrade\source\repos\OrientacaoObjeto\Loja\obj\Debug\netstandard2.0\Loja.AssemblyInfo.cs
