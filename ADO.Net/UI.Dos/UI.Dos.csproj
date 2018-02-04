@@ -33,6 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -47,6 +48,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AulasCsharp.Aplicacao\AulasCsharp.Aplicacao.csproj">
+      <Project>{f8fbf111-ea15-40ce-815b-e08903b0c371}</Project>
+      <Name>AulasCsharp.Aplicacao</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AulasCsharp.Dominio\AulasCsharp.Dominio.csproj">
+      <Project>{9cda331e-f94b-45b4-a212-34a743380023}</Project>
+      <Name>AulasCsharp.Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AulasCsharp.Repositorio\AulasCsharp.Repositorio.csproj">
+      <Project>{dc69414a-7a52-47e8-bb10-01463e1112f5}</Project>
+      <Name>AulasCsharp.Repositorio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -5,3 +5,16 @@ C:\Users\Caue Andrade\source\repos\ADO.Net\UI.Dos\obj\Debug\UI.Dos.csprojResolve
 C:\Users\Caue Andrade\source\repos\ADO.Net\UI.Dos\obj\Debug\UI.Dos.csproj.CoreCompileInputs.cache
 C:\Users\Caue Andrade\source\repos\ADO.Net\UI.Dos\obj\Debug\UI.Dos.exe
 C:\Users\Caue Andrade\source\repos\ADO.Net\UI.Dos\obj\Debug\UI.Dos.pdb
+C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\UI.Dos\bin\Debug\UI.Dos.exe.config
+C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\UI.Dos\bin\Debug\UI.Dos.exe
+C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\UI.Dos\bin\Debug\UI.Dos.pdb
+C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\UI.Dos\obj\Debug\UI.Dos.csprojResolveAssemblyReference.cache
+C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\UI.Dos\obj\Debug\UI.Dos.csproj.CoreCompileInputs.cache
+C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\UI.Dos\obj\Debug\UI.Dos.exe
+C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\UI.Dos\obj\Debug\UI.Dos.pdb
+C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\UI.Dos\bin\Debug\AulasCsharp.Aplicacao.dll
+C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\UI.Dos\bin\Debug\AulasCsharp.Dominio.dll
+C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\UI.Dos\bin\Debug\AulasCsharp.Repositorio.dll
+C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\UI.Dos\bin\Debug\AulasCsharp.Aplicacao.pdb
+C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\UI.Dos\bin\Debug\AulasCsharp.Dominio.pdb
+C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\UI.Dos\bin\Debug\AulasCsharp.Repositorio.pdb

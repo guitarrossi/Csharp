@@ -1,4 +1,7 @@
-﻿using System;
+﻿using AulasCsharp.Aplicacao;
+using AulasCsharp.Dominio;
+using AulasCsharp.Repositorio;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -11,19 +14,8 @@ namespace UI.Dos
     {
         static void Main(string[] args)
         {
-            SqlConnection minhaConexao = new SqlConnection(@"data source = ANDRADE-PC;
-            Integrated Security=SSPI; Initial Catalog = AulasCsharp");
-
-            try
-            {
-                minhaConexao.Open();
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-
+            var contexto = new Contexto();
+            
 
             //string queryUpdate = "UPDATE ALUNO SET Nome = 'Maria da Silva Selvagem' WHERE AlunoId = 1";
             //SqlCommand comandoUpdate = new SqlCommand(queryUpdate, minhaConexao);
@@ -42,30 +34,49 @@ namespace UI.Dos
             Console.Write("Digite a data de nascimento do aluno");
             string data = Console.ReadLine();
 
-            string queryInsert = string.Format("INSERT INTO Aluno (Nome, Mae, DataNascimento) VALUES " +
-               "('{0}', '{1}', '{2}')", nome, mae, data);
-
-            SqlCommand comandoInsert = new SqlCommand(queryInsert, minhaConexao);
-            comandoInsert.ExecuteNonQuery();
-
-            string querySelect = "SELECT * FROM Aluno";
-            SqlCommand cmd = new SqlCommand(querySelect, minhaConexao);
-            SqlDataReader dados = cmd.ExecuteReader();
-
-
-            while (dados.Read())
+            Aluno aluno = new Aluno
             {
-                Console.WriteLine("Id: {0}, Nome: {1}, Mãe: {2},  DataNascimento: {3}", dados["AlunoId"],
-                    dados["Nome"], dados["Mae"], dados["DataNascimento"]);
+                Nome = nome,
+                Mae = mae,
+                DataNascimento = DateTime.Parse(data)
+            };
+
+            new AlunoAplicacao().Inserir(aluno);
+
+            Console.WriteLine("Informe o ID do aluno a ser alterado");
+
+            int IdEscolhido = int.Parse(Console.ReadLine());
+
+
+            Console.Write("Digite o nome do aluno: ");
+            string nomeAlterado = Console.ReadLine();
+
+            Console.Write("Digite o nome da mae do aluno: ");
+            string maeAlterado = Console.ReadLine();
+
+            Console.Write("Digite a data de nascimento do aluno");
+            string dataAlterado = Console.ReadLine();
+
+            Aluno alunoAlterado = new Aluno
+            {
+                Nome = nomeAlterado,
+                Mae = maeAlterado,
+                DataNascimento = DateTime.Parse(dataAlterado)
+            };
+
+            new AlunoAplicacao().Alterar(alunoAlterado, IdEscolhido);
+
+            var dados = new AlunoAplicacao().ListarTodos();
+
+            foreach (var alunoreg in dados)
+            {
+
+                Console.WriteLine("Id: {0}, Nome: {1}, Mãe: {2},  DataNascimento: {3}", alunoreg.Id,
+                    alunoreg.Nome, alunoreg.Mae, alunoreg.DataNascimento);
             }
+            
             Console.ReadLine();
-
-            string cmdInsert = "INSERT INTO Aluno (Nome, Mae, DataNascimento) VALUES ('Enzo Leal'," +
-                " 'Silvana Leal', '27/10/2011')";
-
-            cmd = new SqlCommand(cmdInsert, minhaConexao);
-
-            cmd.ExecuteNonQuery();
+      
 
             
 
