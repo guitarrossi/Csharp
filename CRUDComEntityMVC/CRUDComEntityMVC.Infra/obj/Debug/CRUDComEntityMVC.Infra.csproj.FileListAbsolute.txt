@@ -1,0 +1,11 @@
+C:\Users\cauer\source\repos\CRUDComEntityMVC\CRUDComEntityMVC.Infra\bin\Debug\CRUDComEntityMVC.Infra.dll.config
+C:\Users\cauer\source\repos\CRUDComEntityMVC\CRUDComEntityMVC.Infra\bin\Debug\CRUDComEntityMVC.Infra.dll
+C:\Users\cauer\source\repos\CRUDComEntityMVC\CRUDComEntityMVC.Infra\bin\Debug\CRUDComEntityMVC.Infra.pdb
+C:\Users\cauer\source\repos\CRUDComEntityMVC\CRUDComEntityMVC.Infra\bin\Debug\EntityFramework.dll
+C:\Users\cauer\source\repos\CRUDComEntityMVC\CRUDComEntityMVC.Infra\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cauer\source\repos\CRUDComEntityMVC\CRUDComEntityMVC.Infra\bin\Debug\EntityFramework.xml
+C:\Users\cauer\source\repos\CRUDComEntityMVC\CRUDComEntityMVC.Infra\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cauer\source\repos\CRUDComEntityMVC\CRUDComEntityMVC.Infra\obj\Debug\CRUDComEntityMVC.Infra.csprojResolveAssemblyReference.cache
+C:\Users\cauer\source\repos\CRUDComEntityMVC\CRUDComEntityMVC.Infra\obj\Debug\CRUDComEntityMVC.Infra.csproj.CoreCompileInputs.cache
+C:\Users\cauer\source\repos\CRUDComEntityMVC\CRUDComEntityMVC.Infra\obj\Debug\CRUDComEntityMVC.Infra.dll
+C:\Users\cauer\source\repos\CRUDComEntityMVC\CRUDComEntityMVC.Infra\obj\Debug\CRUDComEntityMVC.Infra.pdb
