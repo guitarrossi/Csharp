@@ -4,3 +4,9 @@ C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Dominio\obj\Debug\Aul
 C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Dominio\obj\Debug\AulasCsharp.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Dominio\obj\Debug\AulasCsharp.Dominio.dll
 C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Dominio\obj\Debug\AulasCsharp.Dominio.pdb
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Dominio\bin\Debug\AulasCsharp.Dominio.dll
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Dominio\bin\Debug\AulasCsharp.Dominio.pdb
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Dominio\obj\Debug\AulasCsharp.Dominio.csprojResolveAssemblyReference.cache
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Dominio\obj\Debug\AulasCsharp.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Dominio\obj\Debug\AulasCsharp.Dominio.dll
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Dominio\obj\Debug\AulasCsharp.Dominio.pdb

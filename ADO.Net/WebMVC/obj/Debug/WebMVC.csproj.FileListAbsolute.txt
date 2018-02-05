@@ -1,0 +1,2 @@
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\WebMVC\obj\Debug\WebMVC.csprojResolveAssemblyReference.cache
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\WebMVC\obj\Debug\WebMVC.csproj.CoreCompileInputs.cache

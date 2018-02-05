@@ -1,93 +1,38 @@
 ﻿using AulasCsharp.Dominio;
-using AulasCsharp.Repositorio;
-using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AulasCsharp.Aplicacao
 {
     public class AlunoAplicacao
     {
-        private Contexto contexto;
+        private readonly IRepositorio<Aluno> repositorio;
 
-        public void Inserir(Aluno aluno)
+        public AlunoAplicacao(IRepositorio<Aluno> repo )
         {
-            var query = "";
-            query += " INSERT INTO Aluno (Nome, Mae, DataNascimento) ";
-            query += string.Format(" VALUES ('{0}','{1}','{2}')", aluno.Nome, aluno.Mae, aluno.DataNascimento);
-
-            using (contexto = new Contexto())
-            {
-                contexto.ExecutaComando(query);
-            }
+            repositorio = repo;
         }
 
-        public void Alterar(Aluno aluno, int Id)
+        public void Salvar(Aluno aluno)
         {
-            var query = "";
-            query += " UPDATE ALUNO SET ";
-            query += string.Format(" Nome = '{0}', ", aluno.Nome);
-            query += string.Format(" Mae = '{0}', ", aluno.Mae);
-            query += string.Format(" DataNascimento = '{0}'", aluno.DataNascimento);
-            query += string.Format(" WHERE AlunoId = {0} ", Id);
-
-            using (contexto = new Contexto())
-            {
-                contexto.ExecutaComando(query);
-            }
+            repositorio.Salvar(aluno);
         }
 
-        public void Excluir(int id)
+        public void Excluir(Aluno aluno)
         {
-            using (contexto = new Contexto())
-            {
-                var query = string.Format(" DELETE FROM ALUNO WHERE AlunoId = {0}", id);
-                contexto.ExecutaComando(query);
-            }
+            repositorio.Excluir(aluno);
         }
 
-        public List<Aluno> ListarTodos()
+        public IEnumerable<Aluno> ListarTodos()
         {
-            using (contexto = new Contexto())
-            {
-                string query = " SELECT * FROM ALUNO";
-                SqlDataReader retornoDataReader = contexto.ExecutaComandoComRetorno(query);
-                return TransformaReaderEmList(retornoDataReader);
-            }
+            return repositorio.ListarTodos();
         }
 
-        public Aluno ListarPorId(int id)
+        public Aluno ListarPorId(string id)
         {
-            using (contexto = new Contexto())
-            {
-                string query = string.Format(" SELECT * FROM ALUNO WHERE AlunoId = {0}", id);
-                SqlDataReader retornoDataReader = contexto.ExecutaComandoComRetorno(query);
-                return TransformaReaderEmList(retornoDataReader).FirstOrDefault();
-            }
+            return repositorio.ListarPorId(id);
         }
 
-        public List<Aluno> TransformaReaderEmList(SqlDataReader reader)
-        {
-            var alunos = new List<Aluno>();
-            while (reader.Read())
-            {
-                var tempObjeto = new Aluno
-                {
-                    Id = int.Parse(reader["AlunoId"].ToString()),
-                    Nome = reader["Nome"].ToString(),
-                    Mae = reader["Mae"].ToString(),
-                    DataNascimento = DateTime.Parse(reader["DataNascimento"].ToString())
-                };
-
-                alunos.Add(tempObjeto);
-            }
-            reader.Close();
-            return alunos;
-
-        }
+       
     }
 
 }

@@ -1,0 +1,8 @@
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Repositorio\bin\Debug\AulasCsharp.Repositorio.dll
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Repositorio\bin\Debug\AulasCsharp.Repositorio.pdb
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Repositorio\bin\Debug\AulasCsharp.Dominio.dll
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Repositorio\bin\Debug\AulasCsharp.Dominio.pdb
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Repositorio\obj\Debug\AulasCsharp.RepositorioADO.csprojResolveAssemblyReference.cache
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Repositorio\obj\Debug\AulasCsharp.RepositorioADO.csproj.CoreCompileInputs.cache
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Repositorio\obj\Debug\AulasCsharp.Repositorio.dll
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Repositorio\obj\Debug\AulasCsharp.Repositorio.pdb

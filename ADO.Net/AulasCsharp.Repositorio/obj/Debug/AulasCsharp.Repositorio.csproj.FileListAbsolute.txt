@@ -4,3 +4,9 @@ C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Repositorio\obj\Debug
 C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Repositorio\obj\Debug\AulasCsharp.Repositorio.csproj.CoreCompileInputs.cache
 C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Repositorio\obj\Debug\AulasCsharp.Repositorio.dll
 C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Repositorio\obj\Debug\AulasCsharp.Repositorio.pdb
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Repositorio\bin\Debug\AulasCsharp.Repositorio.dll
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Repositorio\bin\Debug\AulasCsharp.Repositorio.pdb
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Repositorio\obj\Debug\AulasCsharp.Repositorio.csprojResolveAssemblyReference.cache
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Repositorio\obj\Debug\AulasCsharp.Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Repositorio\obj\Debug\AulasCsharp.Repositorio.dll
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Repositorio\obj\Debug\AulasCsharp.Repositorio.pdb

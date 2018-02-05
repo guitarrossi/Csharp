@@ -10,11 +10,15 @@ namespace UI.Web.Controllers
 {
     public class AlunoController : Controller
     {
+        private readonly AlunoAplicacao appAluno;
+
+        public AlunoController()
+        {
+            appAluno = AlunoAplicacaoConstrutor.AlunoAplicacaoEF();
+        }
         // GET: Aluno
         public ActionResult Index()
         {
-            var appAluno = new AlunoAplicacao();
-
             var listaDeAlunos = appAluno.ListarTodos();
 
             return View(listaDeAlunos);
@@ -31,17 +35,15 @@ namespace UI.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                var appAluno = new AlunoAplicacao();
-                appAluno.Inserir(aluno);
+                appAluno.Salvar(aluno);
                 return RedirectToAction("Index");
             }
 
             return View(aluno);
         }
 
-        public ActionResult Editar(int id)
+        public ActionResult Editar(string id)
         {
-            var appAluno = new AlunoAplicacao();
             var aluno = appAluno.ListarPorId(id);
 
             if (aluno == null)
@@ -54,21 +56,19 @@ namespace UI.Web.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Editar(Aluno aluno, int id)
+        public ActionResult Editar(Aluno aluno)
         {
             if (ModelState.IsValid)
             {
-                var appAluno = new AlunoAplicacao();
-                appAluno.Alterar(aluno, id);
+                appAluno.Salvar(aluno);
                 return RedirectToAction("Index");
             }
 
             return View(aluno);
         }
 
-        public ActionResult Detalhes(int id)
+        public ActionResult Detalhes(string id)
         {
-            var appAluno = new AlunoAplicacao();
             var aluno = appAluno.ListarPorId(id);
 
             if (aluno == null)
@@ -78,6 +78,29 @@ namespace UI.Web.Controllers
 
             return View(aluno);
         }
+
+        public ActionResult Excluir(string id)
+        {
+            var aluno = appAluno.ListarPorId(id);
+
+            if (aluno == null)
+            {
+                return HttpNotFound();
+            }
+
+            return View(aluno);
+        }
+
+        [HttpPost, ActionName("Excluir")]
+        [ValidateAntiForgeryToken]
+        public ActionResult ExcluirConfirmado(string id)
+        {
+            var aluno = appAluno.ListarPorId(id);
+            appAluno.Excluir(aluno);
+
+            return RedirectToAction("Index");
+        }
+        
 
     }
 }

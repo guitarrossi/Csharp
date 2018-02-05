@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AulasCsharp.Repositorio
+namespace AulasCsharp.RepositorioADO
 {
     public class Contexto : IDisposable
     {

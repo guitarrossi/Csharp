@@ -8,3 +8,20 @@ C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\obj\Debug\A
 C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\obj\Debug\AulasCsharp.Aplicacao.csproj.CoreCompileInputs.cache
 C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\obj\Debug\AulasCsharp.Aplicacao.dll
 C:\Users\cauer\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\obj\Debug\AulasCsharp.Aplicacao.pdb
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\bin\Debug\AulasCsharp.Aplicacao.dll
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\bin\Debug\AulasCsharp.Aplicacao.pdb
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\bin\Debug\AulasCsharp.Dominio.dll
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\bin\Debug\AulasCsharp.Repositorio.dll
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\bin\Debug\AulasCsharp.Dominio.pdb
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\bin\Debug\AulasCsharp.Repositorio.pdb
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\obj\Debug\AulasCsharp.Aplicacao.csprojResolveAssemblyReference.cache
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\obj\Debug\AulasCsharp.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\obj\Debug\AulasCsharp.Aplicacao.dll
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\obj\Debug\AulasCsharp.Aplicacao.pdb
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\bin\Debug\AulasCsharp.RepositorioEntityFramework.dll
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\bin\Debug\EntityFramework.dll
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\bin\Debug\AulasCsharp.RepositorioEntityFramework.pdb
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\bin\Debug\AulasCsharp.RepositorioEntityFramework.dll.config
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\bin\Debug\EntityFramework.xml
+C:\Users\Caue Andrade\Documents\GitHub\Csharp\ADO.Net\AulasCsharp.Aplicacao\bin\Debug\EntityFramework.SqlServer.xml

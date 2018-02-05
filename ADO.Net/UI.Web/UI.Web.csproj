@@ -130,6 +130,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Aluno\Excluir.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -150,9 +151,9 @@
       <Project>{9cda331e-f94b-45b4-a212-34a743380023}</Project>
       <Name>AulasCsharp.Dominio</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AulasCsharp.Repositorio\AulasCsharp.Repositorio.csproj">
+    <ProjectReference Include="..\AulasCsharp.Repositorio\AulasCsharp.RepositorioADO.csproj">
       <Project>{dc69414a-7a52-47e8-bb10-01463e1112f5}</Project>
-      <Name>AulasCsharp.Repositorio</Name>
+      <Name>AulasCsharp.RepositorioADO</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
